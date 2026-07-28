@@ -16,6 +16,7 @@ fn main() {
         "姓名：{}，年龄：{}，性别：{}",
         bio.name, bio.age, bio.gender
     );
+    let a =||add_in(3,2);
 }
 fn add_in<T>(a:T,b:T)->T
 where T:std::ops::Add<Output=T>,{a+b}

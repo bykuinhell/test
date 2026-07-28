@@ -17,3 +17,5 @@ fn main() {
         bio.name, bio.age, bio.gender
     );
 }
+fn add_in<T>(a:T,b:T)->T
+where T:std::ops::Add<Output=T>,{a+b}
